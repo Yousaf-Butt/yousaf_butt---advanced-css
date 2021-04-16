@@ -1,0 +1,65 @@
+body {
+  margin-right: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 30px;
+  padding-right: 10px;
+}
+
+a {
+  color: white;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  overflow: hidden;
+}
+
+.buttons__blog {
+  background-color: #f4b459;
+}
+
+.buttons__twitter {
+  background-color: #55acee;
+}
+
+.buttons__linkedin {
+  background-color: #007ab9;
+}
+
+.buttons__facebook {
+  background-color: #3b5998;
+}
+
+.buttons__github {
+  background-color: #333;
+}
+
+.buttons div {
+  height: 30px;
+  width: 200px;
+  padding: 5px 10px;
+  -webkit-transform: translateX(170px);
+          transform: translateX(170px);
+  -webkit-transition: -webkit-transform 500ms;
+  transition: -webkit-transform 500ms;
+  transition: transform 500ms;
+  transition: transform 500ms, -webkit-transform 500ms;
+}
+
+.buttons div:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=social_media.css.map */
