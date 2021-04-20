@@ -1,5 +1,7 @@
+$base-color: #c3cfe2;
+
 body {
-  background-color: #c3cfe2;
+  background-color: $base-color;
 }
 
 .card {
@@ -43,7 +45,7 @@ body {
     }
 
     h2 {
-      color: #c3cfe2;
+      color: $base-color;
       font-size: 1.3em;
       font-weight: lighter;
       margin-top: 0;
